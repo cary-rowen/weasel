@@ -189,3 +189,5 @@ jobs:
             ./output/archives/weasel*.exe
             ./output/archives/debug_symbols.7z
           body_path: ${{ github.workspace }}/RELEASE_CHANGELOG.md
+
+# Keep this workflow discoverable in forked repositories.
